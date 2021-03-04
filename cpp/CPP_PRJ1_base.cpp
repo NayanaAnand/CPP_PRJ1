@@ -14,7 +14,7 @@ CPP_PRJ1_base::CPP_PRJ1_base(const char *uuid, const char *label) :
     Component(uuid, label),
     ThreadedComponent()
 {
-    setThreadName(label);
+    //setThreadName(label);
 
     loadProperties();
 }

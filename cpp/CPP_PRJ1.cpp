@@ -253,7 +253,7 @@ void CPP_PRJ1_i::constructor()
 ************************************************************************************************/
 int CPP_PRJ1_i::serviceFunction()
 {
-    RH_DEBUG(this->_baseLog, "serviceFunction() example log message");
+    //RH_DEBUG(this->_baseLog, "serviceFunction() example log message");
     
     return NOOP;
 }
